@@ -1,7 +1,7 @@
 import os
-os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
-os.environ["WANDB_DISABLED"] = "true"
-os.environ["WANDB_MODE"] = "disabled"
+# os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
+# os.environ["WANDB_DISABLED"] = "true"
+# os.environ["WANDB_MODE"] = "disabled"
 
 import time
 import pickle
